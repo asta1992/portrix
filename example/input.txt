@@ -1,0 +1,5 @@
+fw01	fw02	22,443
+_Internet	fw01	4443
+client01	_Internet	80,443,8081-8090
+client02	fw02	443
+fw02	client03	3389

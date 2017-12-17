@@ -1,0 +1,7 @@
+;_Internet;client01;client02;client03;fw01;fw02
+_Internet;XX;;;;4443, ;
+client01;80, 443, 8081-8090, ;XX;;;;
+client02;;;XX;;;443, 
+client03;;;;XX;;
+fw01;;;;;XX;22, 443, 
+fw02;;;;3389, ;;XX
