@@ -17,7 +17,7 @@ required arguments:
 --------
 Examples
 --------
--------------
+
 Input
 -------------
 ```
@@ -27,7 +27,7 @@ client01	_Internet	80,443,8081-8090
 client02	fw02	443
 fw02	client03	3389
 ```
--------------
+
 Output
 -------------
 ```
