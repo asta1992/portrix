@@ -36,6 +36,7 @@ client03;;;;XX;;
 fw01;;;;;XX;22, 443, 
 fw02;;;;3389, ;;XX
 ```
+-- Hint: Pretty Print with bash -> ./portrix.py -i input.txt | column -t -s ";" -o " | "
 
 |           | _Internet            | client01 | client02 | client03 | fw01   | fw02      | 
 |-----------|----------------------|----------|----------|----------|--------|-----------| 
