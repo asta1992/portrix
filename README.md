@@ -2,24 +2,21 @@
 
 Portrix is a small tool to create a portmatrix out of a text file.
 
--------
-Usage
--------
+## Usage
+```
 usage: portrix.py [-h] -i INPUTFILE [-o OUTPUTFILE]
 
 optional arguments:
-  -h, --help            					show this help message and exit
-  -o OUTPUTFILE, --outputfile OUTPUTFILE 	Output file name
+  -h, --help                              show this help message and exit
+  -o OUTPUTFILE, --outputfile OUTPUTFILE  Output file name
 
 required arguments:
-  -i INPUTFILE, --inputfile INPUTFILE 		Input file name
+  -i INPUTFILE, --inputfile INPUTFILE     Input file name
+```
 
---------
-Examples
---------
+## Examples
+### Input
 
-Input
--------------
 ```
 fw01	fw02	22,443
 _Internet	fw01	4443
@@ -28,8 +25,8 @@ client02	fw02	443
 fw02	client03	3389
 ```
 
-Output
--------------
+### Output
+
 ```
 ;_Internet;client01;client02;client03;fw01;fw02
 _Internet;XX;;;;4443, ;
