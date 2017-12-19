@@ -91,9 +91,9 @@ class Matrix:
         for system in allSystems:
             portmatrix[0][x] = system
             portmatrix[y][0] = system
+            portmatrix[y][x] = "XX"
             x += 1
             y += 1
-            portmatrix[y-1][x-1] = "XX"
         
         for rule in ruleList:
             row = allSystems.index(rule.fromSystem) + 1 
