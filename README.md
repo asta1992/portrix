@@ -4,14 +4,26 @@ Portrix is a small tool to create a portmatrix out of a text file.
 
 ## Usage
 ```
-usage: portrix.py [-h] -i INPUTFILE [-o OUTPUTFILE]
+usage: portrix.py file [-h] -i INPUTFILE [-o OUTPUTFILE]
 
 optional arguments:
-  -h, --help                              show this help message and exit
-  -o OUTPUTFILE, --outputfile OUTPUTFILE  Output file name
+  -h, --help            show this help message and exit
+  -i INPUTFILE, --inputfile INPUTFILE
+                        Input file name
+  -o OUTPUTFILE, --outputfile OUTPUTFILE
+                        Output file name (Default: stdout)
+usage: portrix.py fortigate [-h] -u URL [-p PORT] [-k] -t TOKEN [-o OUTPUTFILE]
 
-required arguments:
-  -i INPUTFILE, --inputfile INPUTFILE     Input file name
+optional arguments:
+  -h, --help            show this help message and exit
+  -u URL, --url URL     URL to fortigate REST API
+  -p PORT, --port PORT  Port to fortigate REST API (Default: 443)
+  -k, --insecure        disable tls check
+  -t TOKEN, --token TOKEN
+                        Bearer token
+  -o OUTPUTFILE, --outputfile OUTPUTFILE
+                        Output file name (Default: stdout)
+
 ```
 
 ## Examples
